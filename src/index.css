@@ -1,0 +1,20 @@
+html {
+    font-family: Helvetica;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #323232;
+    background-image: url("icons/wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: none
+    }
+}
